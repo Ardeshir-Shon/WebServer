@@ -2,7 +2,7 @@
 
 This is a simple web server created to serve html files using some reflection technuiqes in Java.
 
-Put code base(website root) on the home_directory for serving by this web seever on localhost port .
+Put code base(website root) on the home_directory for serving by this web seever on localhost port 8086 (for config this port and IP, change WebServer.java file).
 
 TODO:
   - Add configuration file structure for more flexibility in configuration.(I mean something like nginx.conf)
