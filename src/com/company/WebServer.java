@@ -29,7 +29,7 @@ public class WebServer implements Runnable {
         String path=string.replaceAll("/","\\\\");
         path=path.replaceAll("%20"," ");
         path=path.split("out")[0];
-        path+="Websites\\Page1";
+        path+="home_directory";
         path+="\\index.html";
         System.out.println(path);
         File htmlFile = new File(path);
@@ -80,7 +80,7 @@ public class WebServer implements Runnable {
                     String path=string.replaceAll("/","\\\\");
                     path=path.replaceAll("%20"," ");
                     path=path.split("out")[0];
-                    path+="Websites\\"+header[header.length-1];
+                    path+="home_directory\\"+header[header.length-1];
                     File f = new File(path);
                     System.out.println(path);
                     System.out.println(f.exists());
